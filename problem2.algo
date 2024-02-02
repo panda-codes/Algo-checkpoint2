@@ -1,0 +1,9 @@
+PROCEDURE dot_product(v2 : INTEGER, v2 : INTEGER)
+VAR
+    ps : INTEGER : = 0;
+    i : INTEGER ;
+BEGIN
+    ps += v1[i] * v2[i];
+
+    Write(ps)
+END
