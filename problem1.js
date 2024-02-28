@@ -45,5 +45,6 @@ for (i=0;i<set1.length;i++) {
 }
 
 console.log(sum);
+console.log(result);
 
 

@@ -1,9 +1,23 @@
-PROCEDURE dot_product(v2 : INTEGER, v2 : INTEGER)
+
+
+PROCEDURE dot_product(v1 : INTEGER, v2 : INTEGER)
+VAR
+    ps : INTEGER : = 0;
+    i : INTEGER;
+BEGIN
+FOR i FROM 0 TO v1.length STEP 1  DO
+    ps += v1[i] * v2[i];
+END_FOR
+    
+    Write(ps)
+END
+
+FUNCTION dot_product(v1 : INTEGER, v2 : INTEGER):INTEGER
 VAR
     ps : INTEGER : = 0;
     i : INTEGER ;
 BEGIN
     ps += v1[i] * v2[i];
 
-    Write(ps)
+    RETURN ps;
 END
