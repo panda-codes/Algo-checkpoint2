@@ -98,13 +98,13 @@ header #shoppingBag span{
     color: #fff;
 }
 
-.active .card{
-    left: 1036px;
+.active{
+    left: 70%;
 }
 
-.active aside{
+/* .active aside{
     transform: translateX(-200px);
-}
+} */
 
 /* i need to fix active container */
 
