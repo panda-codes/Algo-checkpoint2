@@ -102,6 +102,10 @@ header #shoppingBag span{
     left: 1036px;
 }
 
+.active aside{
+    transform: translateX(-200px);
+}
+
 /* i need to fix active container */
 
 
