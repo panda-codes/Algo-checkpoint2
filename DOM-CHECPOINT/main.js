@@ -97,3 +97,11 @@ function reloadCart(){
     total.innerHTML = `${totalPrice.toLocaleString()}`;
     quantity.innerText = `${count}`;
 }
+
+
+function increaseQuantity(button) {
+    var input = button.parentNode.querySelector('input');
+    input.value = parseInt(input.value) + 1;
+    updateTotalPrice();
+  }
+
